@@ -1,13 +1,23 @@
+app -> sushi container --> sushi (click removes obj from state, also adds charge (deducts cost from state))
+app -> sushi container --> moreButton --> props: functional props => manipulate state -> display, wallet (logic to prevent neg balance)
+app --> table (only displays 4 sushis) ---> props: display
+
+app state = {
+allSushis: [],
+wallet: #,
+display: (max of 4 obj)
+}
+
 # Mod 4 Practice Code Challenge: Sushi Saga
 
 Welcome to Sushi Saga, where your journey to sushi is only just beginning!
 
 We've had a bit of trouble with our patented Sushi Saga conveyor belt system, so before you can eat, you're going to have to help us get it working.
 
-**Here's what it should look like:**
+**He re's w(hat) it should look like:**
 
-![Sushi Saga](https://raw.githubusercontent.com/learn-co-curriculum/React-Practice-Code-Challenge/master/sushi-saga-demo.gif)
-
+![Sush  i Saga](https://;raw.githubusercontent.com/learn-co-curriculum/React-Practice-Code-Challenge/master/sushi-saga-demo.gif)
+() ;
 **Doesn't that look delicious?!**
 
 ## Setup
@@ -18,7 +28,6 @@ To get you going, we've got a backend just chock full of sushi just waiting to b
 
 1. Navigate to `sushi-saga-client` and run `json-server --watch db.json`
 2. Navigate to `http://localhost:3000/sushis` to confirm delivery of sushi!
-
 
 ### Client
 
@@ -53,4 +62,3 @@ If and only if you have time, you may work on the following:
 3. Anything else!
 
 **Note:** If at the end of the challenge you have achieved all the functionality required but the style looks off, this is okay!
-
